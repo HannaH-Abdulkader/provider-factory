@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsx src/main.ts",
+    "seed": "tsx scripts/seed-raw.ts",
+    "test": "tsx --test test/unit/*.test.ts"
   },
   "keywords": [],
   "author": "",
