@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "tsx src/main.ts",
     "seed": "tsx scripts/seed-raw.ts",
-    "test": "tsx --test test/unit/*.test.ts"
+    "test": "tsx --test test/unit/*.test.ts",
+    "test:integration": "tsx --test test/integration/*.test.ts"
   },
   "keywords": [],
   "author": "",
