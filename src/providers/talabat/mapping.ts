@@ -1,0 +1,31 @@
+export const talabatMenuMapping = {
+  restaurant: {
+    outletCode: 'outletCode',
+    providerRestaurantId: 'id',
+    name: 'name',
+    city: 'City',
+    address: 'Restaurant Address',
+    latitude: 'latitude',
+    longitude: 'longitude',
+    rating: 'rate',
+    totalRatings: 'totalRatings',
+    totalReviews: 'totalReviews',
+    deliveryFee: 'deliveryFee',
+    deliveryTime: 'DeliveryTime',
+    minimumOrder: 'Minimum Order',
+    categories: 'category',
+  },
+  category: {
+    id: 'category_id',
+    name: 'category_name',
+    items: 'items',
+  },
+  item: {
+    id: 'item_id',
+    name: 'item_name',
+    description: 'description',
+    price: 'price',
+    imageUrl: 'image',
+  },
+  notRestaurantMessage: 'This is not restaurant page (Talabat).',
+} as const;
